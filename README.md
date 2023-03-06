@@ -1,1 +1,1 @@
-# Project- pointers, arrays and strings
+C Pointers, arrays 
