@@ -3,7 +3,7 @@
 /**
  * get_bit - Returns the value of a bit.
  * @n: Unsigned int.
- * *index: Bit index.
+ * @index: Bit index.
  * Return: The value of the bit at index.
  */
 int get_bit(unsigned long int n, unsigned int index)
@@ -30,5 +30,5 @@ int get_bit(unsigned long int n, unsigned int index)
         }
     }
 
-    return -1;
+    return (-1);
 }
