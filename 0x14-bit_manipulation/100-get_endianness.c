@@ -2,8 +2,7 @@
 
 /**
  * get_endianness - Checks Endianness.
- * Return: For big endian, 0.
- * For little endian, 1.
+ * Return: 0 for big endian, 1 for little endian.
  */
 int get_endianness(void)
 {
