@@ -2,7 +2,7 @@
 
 /**
  * set_bit - sets the value of a bit to 1 at a given index.
- * *n: Unsigned int.
+ * @n: Unsigned int.
  * @index: bit index.
  * Return: 1 if it wprked, or -1 if error occurred.
  */
