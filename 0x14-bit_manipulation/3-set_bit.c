@@ -4,8 +4,7 @@
  * set_bit - sets the value of a bit to 1 at a given index.
  * *n: Unsigned int.
  * @index: bit index.
- * Return: On success, 1.
- * On failure, -1.
+ * Return: 1 if it wprked, or -1 if error occurred.
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
