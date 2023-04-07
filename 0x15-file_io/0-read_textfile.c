@@ -1,6 +1,4 @@
 #include "main.h"
-#include <fcntl.h>
-#include <unistd.h>
 
 /**
  * read_textfile - eads a text file and prints it to the POSIX std output.
