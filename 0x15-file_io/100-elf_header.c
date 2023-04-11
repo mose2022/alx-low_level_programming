@@ -25,7 +25,7 @@ void close_elf(int elf);
 void check_elf(unsigned chr *pointer)
 {
     int index;
-    for (i = 0; i < 4; i++)
+    for (index = 0; index < 4; index++)
     {
         if (pointer[index] != 127 &&
             pointer[index] != 'E' &&
@@ -48,7 +48,7 @@ void print_magic(unsigned char *pointer)
     int index;
     printf("  Magic:   ");
 
-    for (index = 0; i < EI_NIDENT; i++)
+    for (index = 0; index < EI_NIDENT; index++)
     {
         printf("%02x", pointer[index]);
 
